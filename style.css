@@ -22,3 +22,20 @@
   font-weight: 600;
   src: url('../fonts/poppins-v23-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+:root {
+  --clr-red:hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+}
+
+body {
+}
+
+h1 {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+
