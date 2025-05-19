@@ -42,3 +42,9 @@ h1 {
   font-family: 'Poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-weight: 200;
 }
+
+/* card styles */
+.supervisor {
+  border-top: 2px solid var(--clr-cyan);
+  box-shadow: 1px 1px 5px var(--clr-grey-400);
+}
