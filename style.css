@@ -45,6 +45,27 @@ h1 {
 
 /* card styles */
 .supervisor {
+  margin-top: 40px;
   border-top: 2px solid var(--clr-cyan);
   box-shadow: 1px 1px 5px var(--clr-grey-400);
+  border-radius: 5px;
+}
+
+.team-builder {
+  margin-top: 40px;
+  border-top: 2px solid var(--clr-red);
+  box-shadow: 1px 1px 5px var(--clr-grey-400);
+  border-radius: 5px;
+}
+.karma {
+  margin-top: 40px;
+  border-top: 2px solid var(--clr-orange);
+  box-shadow: 1px 1px 5px var(--clr-grey-400);
+  border-radius: 5px;
+}
+.calculator {
+  margin-top: 40px;
+  border-top: 2px solid var(--clr-blue);
+  box-shadow: 1px 1px 5px var(--clr-grey-400);
+  border-radius: 5px;
 }
