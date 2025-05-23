@@ -60,6 +60,8 @@ header p {
 
 /* card styles */
 .supervisor {
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   border-top: 2px solid var(--clr-cyan);
   box-shadow: 1px 1px 5px var(--clr-grey-400);
@@ -67,7 +69,17 @@ header p {
   padding: 25px;
 }
 
+.supervisor h2 {
+  margin: 0;
+}
+
+.supervisor p {
+  margin: 0;
+}
+
 .supervisor img {
+  width: 50px;
+  align-self: flex-end;
 }
 
 .team-builder {
