@@ -59,44 +59,50 @@ header p {
 }
 
 /* card styles */
-.supervisor {
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  border-top: 2px solid var(--clr-cyan);
   box-shadow: 1px 1px 5px var(--clr-grey-400);
   border-radius: 5px;
   padding: 25px;
 }
 
-.supervisor h2 {
+.supervisor h2,
+.team-builder h2,
+.karma h2,
+.calculator h2 {
   margin: 0;
 }
 
-.supervisor p {
+.supervisor p,
+.team-builder p,
+.karma p,
+.calculator p {
   margin: 0;
 }
 
-.supervisor img {
+.supervisor img,
+.team-builder img,
+.karma img,
+.calculator img {
   width: 50px;
   align-self: flex-end;
 }
 
+.supervisor {
+  border-top: 2px solid var(--clr-cyan);
+}
+
 .team-builder {
-  margin-top: 40px;
   border-top: 2px solid var(--clr-red);
-  box-shadow: 1px 1px 5px var(--clr-grey-400);
-  border-radius: 5px;
 }
 .karma {
-  margin-top: 40px;
   border-top: 2px solid var(--clr-orange);
-  box-shadow: 1px 1px 5px var(--clr-grey-400);
-  border-radius: 5px;
 }
 .calculator {
-  margin-top: 40px;
   border-top: 2px solid var(--clr-blue);
-  box-shadow: 1px 1px 5px var(--clr-grey-400);
-  border-radius: 5px;
 }
