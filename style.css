@@ -38,6 +38,11 @@
   margin: 20px;
 }
 
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
 body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
@@ -66,7 +71,7 @@ header p {
 .calculator {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   box-shadow: 1px 1px 5px var(--clr-grey-400);
   border-radius: 5px;
   padding: 25px;
