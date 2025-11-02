@@ -41,11 +41,8 @@
 .card-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-col-span-2 {
-  grid-column: span 2;
+  margin-top: 80px;
+  /* grid-template-columns: repeat(2, 1fr); */
 }
 
 body {
@@ -76,7 +73,6 @@ header p {
 .calculator {
   display: flex;
   flex-direction: column;
-  /* margin-top: 40px; */
   box-shadow: 1px 1px 5px var(--clr-grey-400);
   border-radius: 5px;
   padding: 25px;
@@ -106,7 +102,6 @@ header p {
 
 .supervisor {
   border-top: 2px solid var(--clr-cyan);
-  grid-column: span 2;
 }
 
 .team-builder {
@@ -120,4 +115,9 @@ header p {
 }
 
 @media only screen and (min-width: 768px) {
+  .supervisor {
+    grid-column: span 2;
+    margin: 0 auto;
+    width: 50%;
+  }
 }
