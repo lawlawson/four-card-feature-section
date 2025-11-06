@@ -42,7 +42,6 @@
   display: grid;
   gap: 1.5rem;
   margin-top: 80px;
-  /* grid-template-columns: repeat(2, 1fr); */
 }
 
 body {
@@ -125,5 +124,54 @@ header p {
     grid-column: span 2;
     margin: 0 auto;
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* 3-column layout with an explicit middle row so the side cards can sit centered
+     in the gap between the top (team-builder) and bottom (karma) cards. */
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 160px auto; /* top, middle (gap area), bottom */
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  /* reset 768px centering/width so 1024px rules take effect */
+  .supervisor,
+  .calculator {
+    width: auto;
+    margin: 0;
+  }
+
+  /* team-builder centered across top */
+  .team-builder {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  /* place supervisor & calculator in the middle row and lift them up so
+     their vertical center aligns with the gap between team-builder and karma */
+  .supervisor {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .calculator {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: center;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  /* karma centered on the bottom row */
+  .karma {
+    grid-column: 2;
+    grid-row: 3;
   }
 }
