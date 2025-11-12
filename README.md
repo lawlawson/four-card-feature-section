@@ -11,10 +11,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -44,14 +41,10 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This was a HTML & CSS project with a particular focusing on responsiveness. I decided to use CSS Grid to implement the layout of the boxes, particularly the change between tablet and larger screen sizes. The change in layout between the larger sizes was the most challenging aspect and required some research to implement a working solution as from the designs.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [https://lawlawson.dev/](https://lawlawson.dev/)
+- Frontend Mentor - [@lawlawson](https://www.frontendmentor.io/profile/lawlawson)
+- Twitter - [@lawsoncodes](https://www.twitter.com/lawsoncodes)
