@@ -127,27 +127,31 @@ header p {
 
   header {
     width: 540px;
-    /* text-align: center; */
     margin: 0 auto;
+  }
+
+  .card-grid {
+    margin-top: 65px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  .header {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
   .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 160px auto;
     gap: 1.5rem;
     align-items: start;
-  }
-
-  .supervisor,
-  .team-builder,
-  .karma,
-  .calculator {
-    width: 350px;
-    height: 250px;
-    padding: 25px 25px 90px;
   }
 
   .supervisor img,
@@ -161,8 +165,9 @@ header p {
 
   .supervisor,
   .calculator {
-    /* width: auto;
-    margin: 0; */
+    width: auto;
+    margin: 0;
+    grid-column: auto;
   }
 
   .team-builder {
