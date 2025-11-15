@@ -124,6 +124,12 @@ header p {
     margin: 0 auto;
     width: 50%;
   }
+
+  header {
+    width: 540px;
+    /* text-align: center; */
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -139,6 +145,8 @@ header p {
   .team-builder,
   .karma,
   .calculator {
+    width: 350px;
+    height: 250px;
     padding: 25px 25px 90px;
   }
 
@@ -147,12 +155,14 @@ header p {
   .karma img,
   .calculator img {
     padding-top: 50px;
+    height: 64px;
+    width: 64px;
   }
 
   .supervisor,
   .calculator {
-    width: auto;
-    margin: 0;
+    /* width: auto;
+    margin: 0; */
   }
 
   .team-builder {
